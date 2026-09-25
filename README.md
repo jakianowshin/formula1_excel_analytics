@@ -8,6 +8,14 @@ The project uses **Power Query, Excel Data Model, DAX, PivotTables, and data vis
 
 ![Formula 1 Excel Dashboard](F1_Excel_Dashboard.png)
 
+## Data Model
+
+The analysis uses the Excel Data Model to connect multiple Formula 1 tables through shared keys such as `raceId`, `driverId`, `constructorId`, `circuitId`, and `statusId`.
+
+![Formula 1 Excel Data Model](F1_Excel_Data_Model.png)
+
+The relational model allows race results, qualifying, pit stops, lap times, standings, and sprint results to be analyzed alongside shared race, driver, constructor, circuit, and status information without flattening the dataset into a single table.
+
 ## Project Objective
 
 The goal of this project is to explore Formula 1 performance and race strategy through historical race data and answer questions such as:
